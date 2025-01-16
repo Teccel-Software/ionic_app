@@ -13,7 +13,13 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src'),
+      "@": path.resolve(__dirname, "./src"),
+      "@component": path.resolve(__dirname, "./src/components"),
+      "@axiosInstance": path.resolve(__dirname, "./src/plugins/axiosInstance"),
+      "@router": path.resolve(__dirname, "./src/router/"),
+      "@view": path.resolve(__dirname, "./src/views"),
+      "@store": path.resolve(__dirname, "./src/store"),
+      "@helper": path.resolve(__dirname, "./src/helper"),
     },
   },
   test: {
